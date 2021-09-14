@@ -6,7 +6,8 @@ API : CoinmarketAPI (documentation link : https://coinmarketcap.com/api/document
 API URL: https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/late  
 ICON USE: https://github.com/spothq/cryptocurrency-icons  
 ICON URL: https://res.cloudinary.com/dxi90ksom/image/upload/  
-LIBRARY USED: VOLLEY   
+LIBRARY USED: VOLLEY    
+
 SPLASH SCREEN. 
 ![SPLASH SCRREN](https://user-images.githubusercontent.com/66962455/133258519-6a7954cb-d4cd-4c39-ab39-1dbf79459e0d.jpeg).  
 MAIN ACTIVITY  
