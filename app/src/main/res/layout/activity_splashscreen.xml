@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CB0B0A0A"
+    tools:context=".splashscreen">
+
+    <TextView
+        android:id="@+id/txtHome1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:fontFamily="@font/cabin_sketch"
+        android:gravity="center_horizontal"
+        android:padding="9dp"
+        android:text="COIN$CRATCH"
+        android:textAlignment="center"
+        android:textColor="#F5F6F6"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHome1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:fontFamily="@font/cabin_sketch"
+        android:text="C R Y P T O  C U R R E N C Y  T R A C K E R"
+        android:textAlignment="center"
+        android:textColor="#AEF6F5F5"
+        android:textSize="18sp"
+        android:layout_alignParentLeft="true">
+    </TextView>
+
+    <TextView
+        android:id="@+id/developer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/cabin_sketch"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="D E V E L O P E D  B Y\n\n S A N D I P  "
+        android:textAlignment="center"
+        android:textColor="#F6F9FB"
+        android:textSize="20sp" />
+
+</RelativeLayout>

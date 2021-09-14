@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CRYPTRACK</string>
+    <string name="btc">BTC</string>
+    <string name="bitcoin">Bitcoin</string>
+    <string name="dollar_sign">$</string>
+    <string name="price">177854522</string>
+    <string name="OneHour">1hr:</string>
+    <string name="OneHourPercentage">-0.05%</string>
+    <string name="TwentyFourHour">24h:</string>
+    <string name="TwentyFourHourPercentage">5.8%</string>
+    <string name="SevenDays">7d:</string>
+    <string name="SevenDayPercentage">2.34%</string>
+    <string name="todo">TODO</string>
+    <string name="cryptrack">C R Y P T R A C K</string>
+    <string name="c_r_y_p_t_o_c_u_r_r_e_n_c_y_t_r_a_c_k_e_r">C R Y P T O  C U R R E N C Y  T R A C K E R</string>
+</resources>

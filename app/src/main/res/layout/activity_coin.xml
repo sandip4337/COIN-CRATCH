@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CoinActivity">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#DA0A0B0B"
+        app:titleTextColor="@color/white"
+        android:id="@+id/toolbar2"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+    <com.google.android.material.button.MaterialButton
+
+        android:id="@+id/share"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="38dp"
+        android:backgroundTint="@color/white"
+        android:onClick="share"
+        app:icon="@drawable/ic_baseline_share_24"
+        app:iconGravity="start"
+        app:iconSize="35dp"
+        app:cornerRadius="100dp"
+        app:iconTint="@color/black"
+        tools:ignore="OnClick,RtlHardcoded,UsingOnClickInXml"
+        tools:targetApi="lollipop" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/homecards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#E8000000"
+        app:cardCornerRadius="25dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/coinSymbol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:text="@string/btc"
+                    android:fontFamily="@font/cabin_sketch"
+                    android:textColor="#EBFFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/coinDivider"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/cabin_sketch"
+                    android:textColor="#EBFFFFFF"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:text="|"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/coinName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/cabin_sketch"
+                    android:textColor="#EBFFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:text="@string/bitcoin" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/dollarSign"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cabin_sketch"
+                    android:textColor="#EBFFFFFF"
+                    android:textSize="25sp"
+                    android:text="@string/dollar_sign" />
+
+                <TextView
+                    android:id="@+id/priceUsdText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/cabin_sketch"
+                    android:textColor="#EBFFFFFF"
+                    android:text="@string/price"
+                    android:layout_marginStart="3dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/oneHourText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cabin_sketch"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#EBFFFFFF"
+                    android:text="@string/OneHour"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/percentChange1hText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/OneHourPercentage"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/cabin_sketch"
+                    android:textColor="#EBFFFFFF"
+                    android:textSize="18sp"
+                    android:layout_marginStart="5dp" />
+
+
+
+                <TextView
+                    android:id="@+id/twentyFourHoursText"
+                    android:layout_marginLeft="55dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/TwentyFourHour"
+                    android:fontFamily="@font/cabin_sketch"
+                    android:textColor="#EBFFFFFF"
+                    android:textSize="18sp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="55dp" />
+
+                <TextView
+                    android:id="@+id/percentChange24hText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cabin_sketch"
+                    android:layout_marginRight="5dp"
+                    android:textColor="#EBFFFFFF"
+                    android:textSize="18sp"
+                    android:text="@string/TwentyFourHourPercentage"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/daysText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:fontFamily="@font/cabin_sketch"
+                    android:textColor="#EBFFFFFF"
+                    android:text="@string/SevenDays"
+                    android:textSize="18sp"
+                    android:layout_marginEnd="3dp" />
+
+                <TextView
+                    android:id="@+id/percentChange7dayText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cabin_sketch"
+                    android:textColor="#EBFFFFFF"
+                    android:textSize="18sp"
+                    android:text="@string/SevenDayPercentage" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
