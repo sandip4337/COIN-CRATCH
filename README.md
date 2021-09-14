@@ -6,15 +6,23 @@ API : CoinmarketAPI (documentation link : https://coinmarketcap.com/api/document
 API URL: https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/late  
 ICON USE: https://github.com/spothq/cryptocurrency-icons  
 ICON URL: https://res.cloudinary.com/dxi90ksom/image/upload/  
-LIBRARY USED: VOLLEY    
+LIBRARY USED: VOLLEY  
 
-SPLASH SCREEN. 
-![SPLASH SCRREN](https://user-images.githubusercontent.com/66962455/133258519-6a7954cb-d4cd-4c39-ab39-1dbf79459e0d.jpeg).  
+SPLASH SCREEN  
+![SPLASH SCRREN](https://user-images.githubusercontent.com/66962455/133270602-0e25e022-6487-4ffe-a450-34245b6ac5bf.jpeg)  
+
 MAIN ACTIVITY  
-![MAIN ACTIVITY](https://user-images.githubusercontent.com/66962455/133258543-15452f9e-3b4f-4845-a91e-6f49f3666585.jpeg).  
-COIN DETAILS AND SHARE OPTION. 
+![MAIN ACTIVITY 2](https://user-images.githubusercontent.com/66962455/133271212-271d7a89-dd99-4d8f-a257-184981034fc3.jpeg)
 
-SHARE SCREEN. 
-![SHARE SCREEN](https://user-images.githubusercontent.com/66962455/133258639-d1f3ffe1-3d40-472c-a30f-29d1d6cd9c33.jpeg).  
-SHARE THE COIN DETAILS VIA WHATSAPP. 
-![SHARE THE COIN DETAILS](https://user-images.githubusercontent.com/66962455/133258762-83a1101f-ac5c-42f4-823c-1aab18047a65.jpeg)
+COIN DETAILS ACTIVITY AND DETAILS SHARE BUTTON  
+![COIN DETAILS AND SHARE OPTION](https://user-images.githubusercontent.com/66962455/133271389-b6fceb1c-7d14-43b0-a6d6-53897140060f.jpeg)  
+
+SHARE SCREEN  
+![SHARE SCREEN](https://user-images.githubusercontent.com/66962455/133271504-db461d99-d6d5-4935-8d1f-caebf0a8bc93.jpeg)  
+
+SHARE VIA WHATSAPP  
+![SHARE THE COIN DETAILS](https://user-images.githubusercontent.com/66962455/133271608-7c2caf6b-34ef-4c70-af9a-46f3575b7616.jpeg)
+
+
+
+
